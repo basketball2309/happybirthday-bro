@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <title>Happy Birthday bro</title>
+    <style type="text/css">
+        #btn
+        {
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            border-width: 5px;
+            border-radius: 40px;
+            font-size: 25px;
+            font-weight:bold;
+            color: brown;
+            cursor: pointer;
+            bottom: -4px;
+
+        }
+        #btn:active
+        {
+            font-size: 23px;
+        }
+
+    </style>
+</head>
+
+
+<body> 
+    <button id="btn" onclick="audio.play();">Happy Birthday button</button>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "./birthdaysong.mp3";
+    </script>
+    <div class="box">
+        <span style="--i:1;"><img src="1.jpg" alt=""></span>
+        <span style="--i:2;"><img src="13.jpg" alt=""></span>
+        <span style="--i:3;"><img src="3.jpg" alt=""></span>
+        <span style="--i:4;"><img src="15.jpg" alt=""></span>
+        <span style="--i:5;"><img src="5.jpg" alt=""></span>
+        <span style="--i:6;"><img src="6.jpg" alt=""></span>
+        <span style="--i:7;"><img src="7.jpg" alt=""></span>
+        <span style="--i:8;"><img src="8.jpg" alt=""></span>
+
+
+    </div>
+</body>
